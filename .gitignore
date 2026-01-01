@@ -1,0 +1,25 @@
+# ESPHome build artifacts
+.esphome/
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+.venv/
+
+# Secrets (NEVER commit these!)
+secrets.yaml
+
+# User-specific configs
+bresser_weather.yaml
+local_development.yaml
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
