@@ -338,9 +338,9 @@
 
 #elif defined(ARDUINO_ESP32S3_DEV)
     #pragma message("ARDUINO_ESP32S3_DEV defined; this is a generic (i.e. non-specific) target")
-    #define USE_SX1276
+    //#define USE_SX1276
     //#define USE_SX1262
-    //#define USE_CC1101
+    #define USE_CC1101
     //#define USE_LR1121
     #pragma message("Cross check if the selected GPIO pins are really available on your board.")
     #pragma message("Connect a radio module with a supported chip.")
@@ -403,9 +403,9 @@
     #pragma message("Cross check if the selected GPIO pins are really available on your board.")
     #pragma message("Connect a radio module with a supported chip.")
     #pragma message("Select the chip by setting the appropriate define.")
-    #define USE_SX1276
+    //#define USE_SX1276
     //#define USE_SX1262
-    //#define USE_CC1101
+    #define USE_CC1101
     //#define USE_LR1121
     // Generic pinning for ESP32 development boards
     #define PIN_RECEIVER_CS   27
